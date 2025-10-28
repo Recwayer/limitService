@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18c5278f-efaa-41ab-a2df-33bde5653b63" name="Changes" comment="limit service">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/configuration/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/configuration/properties/LimitProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/controller/LimitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/controller/handler/AdviceControllerExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/dto/LimitRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/dto/LimitResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/dto/OperationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/dto/ReserveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/exception/InsufficientLimitException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/exception/LimitOperationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/exception/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/mapper/LimitMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/model/Limit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/model/ReservationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/model/ReservedLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/repository/LimitRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/repository/ReservedLimitRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/scheduler/LimitScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/limit/service/LimitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog-master.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/001-initial-schema.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/002-add-reserved-limits.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feat/limit_service" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="34eBNy9xEb8TysaAI7Vu7DquXn9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.limit.Application" />
+      <module name="limit_service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.limit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.limit.Main" />
+      <module name="limit_service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.limit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c5278f-efaa-41ab-a2df-33bde5653b63" name="Changes" comment="" />
+      <created>1761230015698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761230015698</updated>
+    </task>
+    <task id="LOCAL-00001" summary="limit service">
+      <option name="closed" value="true" />
+      <created>1761652419111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761652419111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="limit service" />
+    <option name="LAST_COMMIT_MESSAGE" value="limit service" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/limit/service/LimitService.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/limit/service/LimitService.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
