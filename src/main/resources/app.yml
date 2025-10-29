@@ -1,0 +1,6 @@
+app:
+  default-limit: 100000.00
+  scheduler:
+    enabled: true
+    reset-cron: "0 0 0 * * ?"
+    cleanup-cron: "0 */15 * * * ?"

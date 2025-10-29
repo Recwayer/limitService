@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Andrey
+      changes:
+        - createTable:
+            tableName: user_limits
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: user_id
+                  type: BIGINT
+                  constraints:
+                    unique: true
+                    nullable: false
+              - column:
+                  name: current_limit
+                  type: DECIMAL(12,2)
+                  constraints:
+                    nullable: false
+        - createIndex:
+            tableName: user_limits
+            indexName: idx_user_limits_user_id
+            columns:
+              - column:
+                  name: user_id
